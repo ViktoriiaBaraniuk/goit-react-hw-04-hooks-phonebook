@@ -1,0 +1,28 @@
+.form {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  outline: none;
+  border: 2px solid grey;
+  margin-bottom: 10px;
+  margin-left: 25px;
+}
+.number {
+  outline: none;
+  border: 2px solid grey;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.name:focus,
+.number:focus {
+  border-color: rgb(14, 141, 46);
+}
+.button {
+  width: 100px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(42, 134, 42);
+}

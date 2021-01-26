@@ -1,0 +1,32 @@
+.list {
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+  font-style: italic;
+}
+.listItem {
+  display: flex;
+  align-items: baseline;
+}
+.listItem::before {
+  content: '❆';
+  color: blue;
+  margin-right: 2px;
+}
+
+.deleteBtn {
+  margin-left: 15px;
+  max-width: 65px;
+  height: 25px;
+  cursor: pointer;
+}
+.deleteBtn:hover {
+  background-color: rgb(209, 49, 49);
+}
+.itemName {
+  width: 200px;
+  margin: 0;
+}
+.itemName:not(:last-child) {
+  margin-bottom: 5px;
+}
